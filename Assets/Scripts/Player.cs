@@ -20,10 +20,12 @@ public class Player : MonoBehaviour
         float playerHeight = 2f;
         float moveDistance = moveSpeed * Time.deltaTime;
         bool canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirection, moveDistance);
-        if (canMove)
+        if (!canMove)
         {
             Vector3 moveDirX = new Vector3(moveDirection.x, 0, 0);
             canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirX, moveDistance);
+            Vector3 moveDirZ = new Vector3(0, 0, moveDirection.z);
+            canMove = !Physics.CapsuleCast(transform.position, transform.position + Vector3.up * playerHeight, playerRadius, moveDirZ, moveDistance);
         }
         if (canMove) 
         { 
