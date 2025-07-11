@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1752128483
+  lastShownTimestamp: 1752218195
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1752128483
+  checkedLastUpdateTimestamp: 1752218195
   lastQOTDResponse:
     questionId: 199
     questionText: 'Does this code compile?
@@ -34,26 +34,26 @@ MonoBehaviour:
     answerC: Yes if target is not null
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1752128483
+  lastQotdTimestamp: 1752218195
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/summer2025CodeMonkeyBundle.png
     topText: All my Courses (and Games) in one Bundle! DEEP DISCOUNT ONLY THIS SUMMER!
     topLink: summer2025bundle
     bottomText: AWESOME NEW Unity Bundle with Tools and Assets 97% OFF!
     bottomLink: humblebundle
-  lastDynamicHeaderTimestamp: 1752128483
+  lastDynamicHeaderTimestamp: 1752218195
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1752128483
+  websiteLatestMessageTimestamp: 1752218195
   websiteLatestVideos:
     videos:
+    - youTubeId: ALogEuL6QdA
+      title: The BEST Design Patterns for Game Dev! (Save Time and make BETTER Games!)
     - youTubeId: 7RwMD97Le7I
       title: Learn C# by DOING, FizzBuzz Beginner Project (Overview + Walkthrough)
     - youTubeId: miW-Q8EuRWU
       title: The BEST Worldbuilding Tool is FREE! (ENDS SOON!)
     - youTubeId: mdjap-NtkWs
       title: TOP 10 NEW Games, Made with Unity! (JUNE 2025)
-    - youTubeId: Lj_CgExP3AA
-      title: You Game ANCHOR is super important! Do you know it?
-  websiteLatestVideosTimestamp: 1752128483
+  websiteLatestVideosTimestamp: 1752218195
