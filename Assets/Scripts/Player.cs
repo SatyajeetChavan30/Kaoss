@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
     {
         if (selectedCounter != null) {
             Debug.Log("not null");
+            selectedCounter.Interact();
         }
 
     }
