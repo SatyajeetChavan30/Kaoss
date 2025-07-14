@@ -17,12 +17,12 @@ public class SelectedCounter : MonoBehaviour
         if(e.selectedCounter == clearCounter)
         {
             Show();
-            Debug.Log("show");
+            //Debug.Log("show");
         }
         else
         {
             Hide();
-            Debug.Log("hide");
+            //Debug.Log("hide");
 
         }
     }  
